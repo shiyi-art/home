@@ -55,6 +55,14 @@
             padding: 130px;
             font-size: 20px;
         }
+		
+		
+        #font p {
+            line-height: 30px;
+            word-spacing: 4px;
+        }
+		
+		
 
             #font h1 img {
             width:40%;
@@ -70,8 +78,9 @@
                 font-weight: bold;
                 text-decoration:none;
             }
-
-        .box {
+			
+ 
+          .box {
             width: 90%;
             margin: 0 auto;
             clear: both;
@@ -119,7 +128,120 @@
         margin-bottom:80px;
         }
 
-        #font p {
-            line-height: 30px;
-            word-spacing: 4px;
+        
+
+
+  
+  
+  
+  .container {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+}
+
+  #header{
+  width: 100%;
+
+}
+    .p1{
+		 top: 5.5rem;
+		left: 1rem;
+		font-size: 1rem;
+		}	
+	.p2{
+		 top: 5.5rem;
+		right: 1rem;
+		font-size: 1rem;
+		}
+	.img1 {
+		width: 30%;
+		left: 6.5rem;
+		
+		}		
+
+
+.left, .right, .right5, #font, #footer {
+  width: 100%;
+  height:auto;
+
+}
+
+
+
+@media (min-width: 600px) {
+.left, .right, .right5, #font, #footer {
+  width: 100%;
+  height:auto;
+
+}
+        .p1 {
+            position: absolute;
+            left: 60px;
+            top: 80px;
+            font-size: 23px;
+            color: white;
+            cursor: pointer;
+            word-spacing:3px;
         }
+
+        .p2 {
+            position: absolute;
+            right: 80px;
+            top: 80px;
+            font-size: 23px;
+            color: white;
+            cursor: pointer;
+        }
+
+        .img1 {
+            position: absolute;
+			left: 100px;
+            top: 80px;
+            margin: auto;
+            width: 15%;
+        }
+
+}
+
+
+
+
+@media (min-width: 800px) {
+.left, .right {
+            float: left;
+            width: 50%;
+        }
+        .p1 {
+            position: absolute;
+            left: 150px;
+            top: 80px;
+            font-size: 23px;
+            color: white;
+            cursor: pointer;
+            word-spacing:3px;
+        }
+
+        .p2 {
+            position: absolute;
+            right: 150px;
+            top: 80px;
+            font-size: 23px;
+            color: white;
+            cursor: pointer;
+        }
+
+        .img1 {
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 80px;
+            margin: auto;
+            width: 10%;
+        }
+
+}
+
+
+    
